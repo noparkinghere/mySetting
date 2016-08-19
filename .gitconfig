@@ -1,0 +1,21 @@
+[user]
+	name = demon
+	email = noparkinghere@foxmail.com
+[branch]
+	autosetuprebase = always
+[color]
+	ui = true
+	status = auto
+	branch = auto
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[alias]
+	st = status
+	co = checkout
+	ci = commit
+	br = branch
+	unstage = reset HEAD
+	last = log -1
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
