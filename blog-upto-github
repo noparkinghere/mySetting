@@ -1,0 +1,3 @@
+#! /bin/bash
+# 本文件写入环境变量中，用于推送部署 githubpags 博客，一般来说本文件放在 ~/bash/ 目录下
+bash /home/demon/blog/blog_up.sh
